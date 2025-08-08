@@ -1,20 +1,20 @@
 {
   "domain": "isolarcloud",
-  "name": "Sungrow iSolarCloud",
+  "name": "JOVICDE - Sungrow iSolarCloud",
   "after_dependencies": [
     "recorder"
   ],
   "codeowners": [
-    "@bugjam"
+    "@jovicde"
   ],
   "config_flow": true,
   "dependencies": [
     "application_credentials"
   ],
-  "documentation": "https://github.com/bugjam/hass-isolarcloud/",
+  "documentation": "https://github.com/jovicde/hass-isolarcloud/",
   "homekit": {},
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/bugjam/hass-isolarcloud/issues",
+  "issue_tracker": "https://github.com/jovicde/hass-isolarcloud/issues",
   "loggers": [
     "pysolarcloud"
   ],
@@ -22,6 +22,6 @@
     "pysolarcloud==0.2.1"
   ],
   "ssdp": [],
-  "version": "0.8.0",
+  "version": "0.8.1",
   "zeroconf": []
 }

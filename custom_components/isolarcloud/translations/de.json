@@ -1,0 +1,85 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Authentifizierungsanbieter auswählen"
+      },
+      "user": {
+        "title": "iSolarCloud Server auswählen",
+        "description": "Wählen Sie den Server, zu dem Sie eine Verbindung herstellen möchten.",
+        "data": {
+          "server": "iSolarCloud Server"
+        }
+      },
+      "select_plants": {
+        "title": "Anlagen auswählen",
+        "description": "Wählen Sie die Pflanzen aus, die Sie anschließen möchten.",
+        "data": {
+          "plants": "Anlagen"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits konfiguriert",
+      "already_in_progress": "Konfiguration ist bereits im Gange",
+      "oauth_error": "Ein unbekannter OAuth2-Fehler ist aufgetreten",
+      "oauth_failed": "Authentifizierung beim Dienst fehlgeschlagen",
+      "oauth_timeout": "Zeitüberschreitung bei der Authentifizierung",
+      "oauth_unauthorized": "Nicht autorisiert. Bitte versuchen Sie es erneut.",
+      "missing_configuration": "OAuth2-Konfiguration fehlt",
+      "authorize_url_timeout": "Zeitüberschreitung beim Versuch, die Autorisierungs-URL abzurufen",
+      "no_url_available": "Es ist keine Autorisierungs-URL verfügbar",
+      "user_rejected_authorize": "Autorisierung wurde abgelehnt",
+      "invalid_client_id": "Die OAuth-Client-ID muss wie folgt formatiert sein: applicationId@applicationKey"
+    },
+    "create_entry": {
+      "default": "Erfolgreich authentifiziert und mit dem Dienst verbunden",
+      "reauth_successful": "Erfolgreiche Neuauthentifizierung und Verbindung mit dem Dienst"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Aktualisierungsintervall konfigurieren",
+        "description": "Die Daten in iSolarCloud werden etwa alle 5 Minuten aktualisiert. Es wird empfohlen, dass die Häufigkeit der Endpunktanrufe nicht weniger als 300 Sekunden beträgt.",
+        "data": {
+          "update_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "feed_in_energy_total": {
+        "name": "Eingespeiste Energie"
+      },
+      "cumulative_discharge": {
+        "name": "Entladeenergie der Batterie"
+      },
+      "energy_storage_cumulative_charge": {
+        "name": "Ladeenergie der Batterie"
+      },
+      "total_purchased_energy": {
+        "name": "Gekaufte Energie"
+      },
+      "total_load_consumption": {
+        "name": "Verbrauchte Energie"
+      },
+      "total_yield": {
+        "name": "Erzeugte Energie"
+      },
+      "total_direct_energy_consumption": {
+        "name": "Direkter Verbrauch"
+      },
+      "power": {
+        "name": "Leistungsfluss"
+      },
+      "load_power": {
+        "name": "Ladeleistung"
+      },
+      "battery_level_soc": {
+        "name": "Batteriestand"
+      }
+    }
+  }
+}
